@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fik Bem</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="/images/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="/images/kart.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+            </a>
+          </div>
+          <div class="logo_escrita">
+            <h2 class="name_emp" href="index.html">fikbem Massas e Frios</h2>
+          </div>
+          
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#special">ESPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTOS</a></li>
+          <li><a href="#contact">CONTATE-NOS</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="/images/logofb.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>A MELHOR CASA DE FRIOS DE <BR> SANTA BARBARA D'OESTE</h2>
+          <h1>FIK BEM<br /><span>CASA DE FRIOS</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card" >
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4 class="font_h4">MAIS POPULAR</h4>
+        <img  class="img_banner" src="/images/mussarela.png" alt="">
+      </div>
+      <div class="banner__card">
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>PROMOÇÕES</h3>
+      <h2 class="section__header">Escolha e Peça JÁ</h2>
+      <p class="section__description">
+        Prepare-se para se deliciar com nossas irresistíveis ofertas de inverno em produtos frescos e saborosos! <br>
+         estamos oferecendo uma variedade de queijos artesanais, carnes nobres, e uma seleção especial de frios que vão aquecer seu paladar nesta estação.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="/images/presuntoimg.jpeg" alt="order" />
+          <h4>PRESUNTO</h4>
+          <p>
+            Descubra o sabor inigualável do presunto em nossa seleção cuidadosamente curada. De presunto cru espanhol com seu sabor salgado e delicado a presuntos defumados para um toque de defumação sutil, cada fatia oferece um deleite irresistível para paladares exigentes.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+        <div class="order__card">
+          <img src="/images/queijoimg.jpeg" alt="order" />
+          <h4>QUEIJO</h4>
+          <p>
+            Em nossa casa de frios, oferecemos uma variedade de queijos artesanais e especiais, cada um com seu próprio sabor e textura únicos. Desde o cremoso e suave queijo brie até o robusto queijo parmesão, nossos queijos são selecionados para proporcionar uma experiência gourmet em cada mordida.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+        <div class="order__card">
+          <img src="/images/mussarelaimg.jpeg" alt="order" />
+          <h4>MUSSARELA</h4>
+          <p>
+            A mussarela fresca e macia é um clássico da nossa casa de frios. Delicie-se com a textura cremosa e o sabor suave da autêntica mussarela italiana, perfeita para sanduíches, saladas, pizzas ou simplesmente como petisco. Nossa mussarela é garantia de qualidade e frescor em cada porção.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="/images/festajulina.jpeg" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">Proximos EVENTOS</h2>
+          <p class="section__description">
+            🌽🎉 Venha Celebrar conosco na Festa Julina da Casa de Frios FIK BEM! 🎉🌽<br><br>
+Prepare-se para uma noite cheia de alegria, música e delícias juninas tradicionais! Em um ambiente acolhedor e familiar, estamos trazendo toda a magia das festas de São João diretamente para você. Será uma oportunidade única para saborear nossos melhores produtos enquanto desfruta de atividades divertidas para toda a família.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h2 class="section__header">FAÇA SEU PEDIDO PELO WHATSAPP</h2>
+        <div class="reservation_filho">
+          <button class="btn_whatsapp" onclick="redirectToWhatsApp()">Enviar pedido pelo WhatsApp</button>
+        </div>
+        </div>
+      </div>
+    </section>    
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="/images/logofb.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Avendia tiraosdentes
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                fikbem@supermercos.com.br
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fik Bem</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="/images/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="/images/kart.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+            </a>
+          </div>
+          <div class="logo_escrita">
+            <h2 class="name_emp" href="index.html">fikbem Massas e Frios</h2>
+          </div>
+          
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#special">ESPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTOS</a></li>
+          <li><a href="#contact">CONTATE-NOS</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="/images/logofb.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>A MELHOR CASA DE FRIOS DE <BR> SANTA BARBARA D'OESTE</h2>
+          <h1>FIK BEM<br /><span>CASA DE FRIOS</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card" >
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4 class="font_h4">MAIS POPULAR</h4>
+        <img  class="img_banner" src="/images/mussarela.png" alt="">
+      </div>
+      <div class="banner__card">
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>PROMOÇÕES</h3>
+      <h2 class="section__header">Escolha e Peça JÁ</h2>
+      <p class="section__description">
+        Prepare-se para se deliciar com nossas irresistíveis ofertas de inverno em produtos frescos e saborosos! <br>
+         estamos oferecendo uma variedade de queijos artesanais, carnes nobres, e uma seleção especial de frios que vão aquecer seu paladar nesta estação.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="/images/presuntoimg.jpeg" alt="order" />
+          <h4>PRESUNTO</h4>
+          <p>
+            Descubra o sabor inigualável do presunto em nossa seleção cuidadosamente curada. De presunto cru espanhol com seu sabor salgado e delicado a presuntos defumados para um toque de defumação sutil, cada fatia oferece um deleite irresistível para paladares exigentes.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+        <div class="order__card">
+          <img src="/images/queijoimg.jpeg" alt="order" />
+          <h4>QUEIJO</h4>
+          <p>
+            Em nossa casa de frios, oferecemos uma variedade de queijos artesanais e especiais, cada um com seu próprio sabor e textura únicos. Desde o cremoso e suave queijo brie até o robusto queijo parmesão, nossos queijos são selecionados para proporcionar uma experiência gourmet em cada mordida.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+        <div class="order__card">
+          <img src="/images/mussarelaimg.jpeg" alt="order" />
+          <h4>MUSSARELA</h4>
+          <p>
+            A mussarela fresca e macia é um clássico da nossa casa de frios. Delicie-se com a textura cremosa e o sabor suave da autêntica mussarela italiana, perfeita para sanduíches, saladas, pizzas ou simplesmente como petisco. Nossa mussarela é garantia de qualidade e frescor em cada porção.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="/images/festajulina.jpeg" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">Proximos EVENTOS</h2>
+          <p class="section__description">
+            🌽🎉 Venha Celebrar conosco na Festa Julina da Casa de Frios FIK BEM! 🎉🌽<br><br>
+Prepare-se para uma noite cheia de alegria, música e delícias juninas tradicionais! Em um ambiente acolhedor e familiar, estamos trazendo toda a magia das festas de São João diretamente para você. Será uma oportunidade única para saborear nossos melhores produtos enquanto desfruta de atividades divertidas para toda a família.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h2 class="section__header">FAÇA SEU PEDIDO PELO WHATSAPP</h2>
+        <div class="reservation_filho">
+          <button class="btn_whatsapp" onclick="redirectToWhatsApp()">Enviar pedido pelo WhatsApp</button>
+        </div>
+        </div>
+      </div>
+    </section>    
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="/images/logofb.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Avendia tiraosdentes
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                fikbem@supermercos.com.br
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fik Bem</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="/images/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="/images/kart.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+            </a>
+          </div>
+          <div class="logo_escrita">
+            <h2 class="name_emp" href="index.html">fikbem Massas e Frios</h2>
+          </div>
+          
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#special">ESPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTOS</a></li>
+          <li><a href="#contact">CONTATE-NOS</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="/images/logofb.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>A MELHOR CASA DE FRIOS DE <BR> SANTA BARBARA D'OESTE</h2>
+          <h1>FIK BEM<br /><span>CASA DE FRIOS</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card" >
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4 class="font_h4">MAIS POPULAR</h4>
+        <img  class="img_banner" src="/images/mussarela.png" alt="">
+      </div>
+      <div class="banner__card">
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <h1>EXPERIMENTE HOJE</h1>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>PROMOÇÕES</h3>
+      <h2 class="section__header">Escolha e Peça JÁ</h2>
+      <p class="section__description">
+        Prepare-se para se deliciar com nossas irresistíveis ofertas de inverno em produtos frescos e saborosos! <br>
+         estamos oferecendo uma variedade de queijos artesanais, carnes nobres, e uma seleção especial de frios que vão aquecer seu paladar nesta estação.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="/images/presuntoimg.jpeg" alt="order" />
+          <h4>PRESUNTO</h4>
+          <p>
+            Descubra o sabor inigualável do presunto em nossa seleção cuidadosamente curada. De presunto cru espanhol com seu sabor salgado e delicado a presuntos defumados para um toque de defumação sutil, cada fatia oferece um deleite irresistível para paladares exigentes.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+        <div class="order__card">
+          <img src="/images/queijoimg.jpeg" alt="order" />
+          <h4>QUEIJO</h4>
+          <p>
+            Em nossa casa de frios, oferecemos uma variedade de queijos artesanais e especiais, cada um com seu próprio sabor e textura únicos. Desde o cremoso e suave queijo brie até o robusto queijo parmesão, nossos queijos são selecionados para proporcionar uma experiência gourmet em cada mordida.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+        <div class="order__card">
+          <img src="/images/mussarelaimg.jpeg" alt="order" />
+          <h4>MUSSARELA</h4>
+          <p>
+            A mussarela fresca e macia é um clássico da nossa casa de frios. Delicie-se com a textura cremosa e o sabor suave da autêntica mussarela italiana, perfeita para sanduíches, saladas, pizzas ou simplesmente como petisco. Nossa mussarela é garantia de qualidade e frescor em cada porção.
+          </p>
+          <button class="btn">PEDIR AGORA</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="/images/festajulina.jpeg" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">Proximos EVENTOS</h2>
+          <p class="section__description">
+            🌽🎉 Venha Celebrar conosco na Festa Julina da Casa de Frios FIK BEM! 🎉🌽<br><br>
+Prepare-se para uma noite cheia de alegria, música e delícias juninas tradicionais! Em um ambiente acolhedor e familiar, estamos trazendo toda a magia das festas de São João diretamente para você. Será uma oportunidade única para saborear nossos melhores produtos enquanto desfruta de atividades divertidas para toda a família.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h2 class="section__header">FAÇA SEU PEDIDO PELO WHATSAPP</h2>
+        <div class="reservation_filho">
+          <button class="btn_whatsapp" onclick="redirectToWhatsApp()">Enviar pedido pelo WhatsApp</button>
+        </div>
+        </div>
+      </div>
+    </section>    
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="/images/logofb.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+            qfqfeqfwfwefewfwefewfewfewfewfewfwefwefwe
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Avendia tiraosdentes
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                fikbem@supermercos.com.br
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
