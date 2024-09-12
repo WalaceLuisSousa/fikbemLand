@@ -289,7 +289,8 @@ nav {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-.order__card img {
+.order__product {
+  width: 250px;
   max-width: 250px;
   margin: auto;
   margin-bottom: 2rem;
