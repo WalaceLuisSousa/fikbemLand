@@ -85,15 +85,12 @@ a {
 }
 
 html,
-
 body {
   scroll-behavior: smooth;
-  
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  
 }
 
 .header {
@@ -110,6 +107,7 @@ nav {
   height: 20px;
   margin-inline: auto;
   z-index: 9;
+  background-color: black;
 }
 
 .nav__header {
@@ -117,8 +115,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--primary-color);
-  
+  background-color: var(--primary-color);  
 }
 
 .nav__logo img {
@@ -262,6 +259,10 @@ nav {
   font-family: var(--header-font-2);
   color: var(--primary-color);
   background-color: var(--secondary-color);
+}
+
+.img_banner {
+  border-radius: 1rem;
 }
 
 .order__container .section__header {
